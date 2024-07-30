@@ -64,4 +64,5 @@ function card () {
         card.addEventListener('click', cardFlip);
       });
 
+
 soundEffect = new path ('https,://audiomack.com/domi_gold/song/love-me-jeje');
