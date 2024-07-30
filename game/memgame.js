@@ -7,8 +7,7 @@ const timer = document.getElementById('timer');
 
 let score = 0;
 let moves = let ,timerValue = 60;
-let timerInterval;
-let soundEffect;
+let timeInterval;
 
 function shuffleCards() {
   for (i = cards.length - 1; i > 0; i--) {
@@ -24,7 +23,6 @@ function checkMatch () {
     cards[0].classList.add('match');
     cards[1].classList.add('match');
     setTimeout(shuffleCards, 1000);
-    soundEffect.play;
   } else {
     cards[0].classList.remove('match');
     cards[1].classList.remove('match');
@@ -63,6 +61,3 @@ function card () {
       cards.forEach((card) => {
         card.addEventListener('click', cardFlip);
       });
-
-
-soundEffect = new path ('https,://audiomack.com/domi_gold/song/love-me-jeje');
